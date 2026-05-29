@@ -23,7 +23,9 @@ for(i=0; i<6; i++){        // iterates over lotto[]
     }
 }
 if(match == 6){ // win
-    ```
+```
+
+
 this snippet right here shows the vulnerability ,
 its enough to find only 1 matching byte and it will iterate it over 
 each time and increas it to 6 even if its one matching byte
